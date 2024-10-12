@@ -3,7 +3,7 @@ import 'package:zabi/util/images.dart';
 
 class AppConstants {
   // Flutter SDK Version 3.22.0
-  static const String APP_NAME = 'E-Sale Sawaab Faroq Mogalia';
+  static const String APP_NAME = 'E-Sale Sawaab Faroq Mogalia and all Marhooms';
   static const String APP_VERSION = "3.0";
 
   // main base url

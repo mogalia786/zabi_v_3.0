@@ -127,7 +127,7 @@ class BannerWidget extends StatelessWidget {
                                         Images.Icon_Calender,
                                         color: Theme.of(context).hintColor,
                                         height: 20,
-                                        fit: BoxFit.fill,
+                                        fit: BoxFit.fitWidth,
                                       ),
                                       const SizedBox(
                                           width: Dimensions
@@ -152,7 +152,7 @@ class BannerWidget extends StatelessWidget {
                                                   .format(DateTime.now())),
                                               style: robotoRegular.copyWith(
                                                 fontSize: Dimensions
-                                                    .FONT_SIZE_DEFAULT,
+                                                    .FONT_SIZE_SMALL,
                                                 color:
                                                     Theme.of(context).hintColor,
                                               ),
@@ -164,7 +164,7 @@ class BannerWidget extends StatelessWidget {
                                                 "${HijriCalendar.fromDate(DateTime.now()).toFormat('dd MMMM yyyy')} "),
                                             style: robotoRegular.copyWith(
                                               fontSize:
-                                                  Dimensions.FONT_SIZE_DEFAULT,
+                                                  Dimensions.FONT_SIZE_SMALL,
                                               color:
                                                   Theme.of(context).hintColor,
                                             ),
@@ -190,14 +190,14 @@ class BannerWidget extends StatelessWidget {
                             imageErrorBuilder: (context, error, stackTrace) {
                               return Image.asset(
                                 Images.Banner_Image,
-                                fit: BoxFit.fill,
+                                fit: BoxFit.fitWidth,
                                 height: 130,
-                                width: 170,
+                                width: 100,
                               );
                             },
-                            fit: BoxFit.fill,
+                            fit: BoxFit.fitWidth,
                             height: 130,
-                            width: 170,
+                            width: 120,
                           ),
                         ],
                       ),

@@ -40,7 +40,7 @@ class FeatureItemWidget extends StatelessWidget {
             SvgPicture.asset(
               itemIconPath,
               color: Theme.of(context).primaryColor,
-              height: 40,
+              height: 20,
             ), //  item name
             Padding(
               padding: const EdgeInsets.symmetric(
@@ -49,7 +49,7 @@ class FeatureItemWidget extends StatelessWidget {
                 itemName,
                 textAlign: TextAlign.center,
                 style: robotoRegular.copyWith(
-                  fontSize: Dimensions.FONT_SIZE_SMALL,
+                  fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL,
                   color: Get.isDarkMode
                       ? Theme.of(context).hintColor
                       : Theme.of(context).textTheme.bodyMedium!.color,

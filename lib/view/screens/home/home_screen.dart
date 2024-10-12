@@ -144,10 +144,44 @@ class _HomeScreenState extends State<HomeScreen> {
                                         color: Theme.of(context).cardColor,
                                       )),
                             IconButton(
+                                 onPressed: () {
+                                  Get.toNamed(RouteHelper.youTube);
+                                },
+                                icon: Get.isDarkMode
+                                    ? SvgPicture.asset(
+                                        Images.Icon_YT,
+                                        height: 28,
+                                        fit: BoxFit.fill,
+                                        color: Theme.of(context).primaryColor,
+                                      )
+                                    : SvgPicture.asset(
+                                        Images.Icon_YT,
+                                        height: 28,
+                                        fit: BoxFit.fill,
+                                        color: Theme.of(context).cardColor,
+                                      )),
+                            IconButton(
+                                onPressed: () {
+                                  Get.toNamed(RouteHelper.alansaar);
+                                },
+                                icon: Get.isDarkMode
+                                    ? SvgPicture.asset(
+                                  Images.Icon_Al,
+                                  height: 28,
+                                  fit: BoxFit.fill,
+                                  color: Theme.of(context).primaryColor,
+                                )
+                                    : SvgPicture.asset(
+                                  Images.Icon_Al,
+                                  height: 28,
+                                  fit: BoxFit.fill,
+                                  color: Theme.of(context).cardColor,
+                                )),
+                            IconButton(
                               tooltip: "light_or_dark_mode".tr,
                               icon: Get.isDarkMode
                                   ? SvgPicture.asset(
-                                      Images.Icon_day_mode,
+                                      Images.Icon_dark_mode,
                                       height: 25,
                                       fit: BoxFit.fill,
                                       color: Get.isDarkMode

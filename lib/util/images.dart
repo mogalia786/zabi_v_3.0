@@ -8,6 +8,7 @@ class Images {
   static const String Icon_Allah_99_name =
       '${image_path}Icon_Allah_99_name.svg';
   static const String Icon_Asr = '${image_path}Icon_Asr.svg';
+  static const String Icon_YT = '${image_path}icons8-youtube.svg';
   static const String Icon_Calender = '${image_path}Icon_Calender.svg';
   static const String Icon_Campass = '${image_path}Icon_Campass.svg';
   static const String Icon_Category = '${image_path}Icon_Category.svg';
@@ -124,4 +125,5 @@ class Images {
   static const String Icon_Paystack = '${image_path}Logo_Paystack.png';
   static const String Icon_Razorpay = '${image_path}Logo_Razorpay.png';
   static const String Icon_Stripe = '${image_path}Logo_Stripe.png';
+  static const String Icon_Al = '${image_path}al.svg';
 }

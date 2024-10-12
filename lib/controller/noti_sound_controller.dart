@@ -10,7 +10,8 @@ class NotiSoundController extends GetxController {
   final List<Map<String, String>> sounds = [
     {'name': 'Adhan 1', 'path': 'assets/audio/azan_1.mp3'},
     {'name': 'Adhan 2', 'path': 'assets/audio/azan_2.mp3'},
-    {'name': 'Adhan 3', 'path': 'assets/audio/azan_3.mp3'},
+    {'name': 'Adhan 3', 'path': 'assets/audio/azan_2.mp3'},
+    {'name': 'Adhan 4', 'path': 'assets/audio/azan_3.mp3'},
     {'name': 'Short Beep', 'path': 'assets/audio/noti_beep.mp3'},
     {'name': 'Long Beep', 'path': 'assets/audio/noti_beep_beep.mp3'},
     {'name': 'Other Sound', 'path': 'assets/audio/noti_1.mp3'},

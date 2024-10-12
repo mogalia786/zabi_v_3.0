@@ -34,7 +34,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
               children: [
                 Padding(
                   padding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_DEFAULT),
+                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
                   child: Container(
                     padding: const EdgeInsets.symmetric(
                         vertical: Dimensions.PADDING_SIZE_DEFAULT),
@@ -179,7 +179,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                 children: [
                                   Text(
                                     "iftar_start".tr,
-                                    style: robotoMedium.copyWith(
+                                    style: robotoRegular.copyWith(
                                         color: Theme.of(context).hintColor),
                                   ),
                                   Text(

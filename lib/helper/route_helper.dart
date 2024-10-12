@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:zabi/view/screens/youtube/youtube.dart';
+import 'package:zabi/view/screens/alansaar/alansaar.dart';
 import 'package:zabi/view/base/bottom_navbar.dart';
 import 'package:zabi/view/screens/compass/compass_screen.dart';
 import 'package:zabi/view/screens/dhikr/local%20stroge%20dhikr/local_dhikr_add_screen.dart';
@@ -31,6 +33,8 @@ import '../view/screens/payment/donated_list.dart';
 class RouteHelper {
   static String initial = "/";
   static String home = "/home";
+  static String youTube ="/youtube";
+  static String alansaar ="/alansaar";
   static String bottomNavbar = "/bottomNavbar";
   static String dhikr = "/dhikr";
   static String dhikrCount = "/dhikrCount";
@@ -59,6 +63,8 @@ class RouteHelper {
 
   static String getInitialRoute() => initial;
   static String getHomeRoute() => home;
+  static String getYouTubeRoute() => youTube;
+  static String getAlansaarRoute() => alansaar;
   static String getBottomNavbarRoute() => bottomNavbar;
   static String getDhikrRoute() => dhikr;
   static String getDhikrCountRoute() => dhikrCount;
@@ -133,6 +139,21 @@ class RouteHelper {
         page: () => const DuaScreen(
               appBackButton: true,
             ),
+            
+        transition: Transition.cupertinoDialog),
+    GetPage(
+        name: youTube,
+        page: () => const MyHomePage(
+              appBackButton: true,
+            ),
+            
+        transition: Transition.cupertinoDialog),
+    GetPage(
+        name: alansaar,
+        page: () => const alAnsaar(
+
+        ),
+
         transition: Transition.cupertinoDialog),
     GetPage(
         name: duaView,
